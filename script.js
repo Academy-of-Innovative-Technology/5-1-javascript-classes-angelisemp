@@ -55,4 +55,3 @@ console.log(greeting.english());
 console.log(greeting.spanish());
 console.log(greeting.french());
 console.log(greeting.arabic());
-console.log(greeting.japanese());
