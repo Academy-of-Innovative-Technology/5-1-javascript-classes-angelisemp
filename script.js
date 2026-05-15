@@ -30,11 +30,29 @@ class Intro {
     }
 }
 
-english () {
+english() {
     return "Hello" + this.name;
 }
 
-english () {
-    return "Hello" + this.name;
+spanish() {
+    return "Hola" + this.name;
 }
 
+french() {
+    return "Bonjour" + this.name;
+}
+
+arabic() {
+    return "Marhaba" + this.name;
+}
+
+
+
+let greeting = new Greetings("Angelise");
+
+
+console.log(greeting.english());
+console.log(greeting.spanish());
+console.log(greeting.french());
+console.log(greeting.arabic());
+console.log(greeting.japanese());
